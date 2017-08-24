@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0060871BCDBE12009F6ECD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0060861BCDBE12009F6ECD /* main.cpp */; };
+		CE0060871BCDBE12009F6ECD /* TopicD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0060861BCDBE12009F6ECD /* TopicD.cpp */; };
+		CE0060951BCDBECA009F6ECD /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0060931BCDBECA009F6ECD /* PrecondViolatedExcep.cpp */; };
+		CE0060981BCDBF6B009F6ECD /* Soundtrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0060961BCDBF6B009F6ECD /* Soundtrack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,17 @@
 
 /* Begin PBXFileReference section */
 		CE0060831BCDBE12009F6ECD /* Topic D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Topic D"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0060861BCDBE12009F6ECD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE0060861BCDBE12009F6ECD /* TopicD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TopicD.cpp; sourceTree = "<group>"; };
+		CE00608D1BCDBE7D009F6ECD /* BinaryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryNode.h; sourceTree = "<group>"; };
+		CE00608E1BCDBE7D009F6ECD /* BinaryNodeTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryNodeTree.cpp; sourceTree = "<group>"; };
+		CE00608F1BCDBE7D009F6ECD /* BinaryNodeTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryNodeTree.h; sourceTree = "<group>"; };
+		CE0060901BCDBE7D009F6ECD /* BinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
+		CE0060931BCDBECA009F6ECD /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		CE0060941BCDBECA009F6ECD /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecondViolatedExcep.h; sourceTree = "<group>"; };
+		CE0060961BCDBF6B009F6ECD /* Soundtrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Soundtrack.cpp; sourceTree = "<group>"; };
+		CE0060971BCDBF6B009F6ECD /* Soundtrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soundtrack.h; sourceTree = "<group>"; };
+		CE427A411BD027C400F86F7F /* NotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotFoundException.h; sourceTree = "<group>"; };
+		CE427A461BD029A300F86F7F /* BinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,17 @@
 		CE0060851BCDBE12009F6ECD /* Topic D */ = {
 			isa = PBXGroup;
 			children = (
-				CE0060861BCDBE12009F6ECD /* main.cpp */,
+				CE0060861BCDBE12009F6ECD /* TopicD.cpp */,
+				CE427A461BD029A300F86F7F /* BinarySearchTree.cpp */,
+				CE0060901BCDBE7D009F6ECD /* BinarySearchTree.h */,
+				CE00608E1BCDBE7D009F6ECD /* BinaryNodeTree.cpp */,
+				CE00608F1BCDBE7D009F6ECD /* BinaryNodeTree.h */,
+				CE00608D1BCDBE7D009F6ECD /* BinaryNode.h */,
+				CE0060961BCDBF6B009F6ECD /* Soundtrack.cpp */,
+				CE0060971BCDBF6B009F6ECD /* Soundtrack.h */,
+				CE0060931BCDBECA009F6ECD /* PrecondViolatedExcep.cpp */,
+				CE0060941BCDBECA009F6ECD /* PrecondViolatedExcep.h */,
+				CE427A411BD027C400F86F7F /* NotFoundException.h */,
 			);
 			path = "Topic D";
 			sourceTree = "<group>";
@@ -118,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0060871BCDBE12009F6ECD /* main.cpp in Sources */,
+				CE0060951BCDBECA009F6ECD /* PrecondViolatedExcep.cpp in Sources */,
+				CE0060981BCDBF6B009F6ECD /* Soundtrack.cpp in Sources */,
+				CE0060871BCDBE12009F6ECD /* TopicD.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +256,7 @@
 				CE00608C1BCDBE12009F6ECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
